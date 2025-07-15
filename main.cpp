@@ -14,6 +14,8 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
     Choose nouns that do things.  
     avoid choosing nouns that have things done TO them.
     If your noun consists of multiple words, use camelCaseToNameIt.
+
+    
  
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
     a) AVOID state-checking actions, like "Car has a horn".  i.e.
@@ -52,84 +54,94 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:modWheel
+//  action 1: increases the pitch of the sound.
+modWheel.increasePitch();    
+//  action 2: Decreases the pitch of the sound.    
+modWheel.decreasePitch();
+//  action 3: scrolls through the different modes. 
+modWheel.scrollModes();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:arpeggiator       
+//  action 1:plays sequence of notes.
+arpeggiator.playSequence();
+//  action 2:opens arpeggiator menu
+arpeggiator.openMenu();
+//  action 3:sets note sequence
+arpeggiator.setSequence();
 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:key
+//  action 1:triggers a note to play
+key.triggerNote();
+//  action 2:tells a note to stop
+key.stopNote();
+//  action 3:sets the pitch of a note
+key.setPitch();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:mouse
+//  action 1:selects an item
+mouse.selectItem();
+//  action 2:right clicks an item
+mouse.rightClick();
+//  action 3:scrolls through items
+mouse.scrollItems();
 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:knob
+//  action 1:sets a value
+knob.setValue();
+//  action 2:increase value
+knob.increaseValue();
+//  action 3:decrease value
+knob.decreaseValue();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:eyes
+//  action 1:the eyes open    
+eyes.open();
+//  action 2: the eyes close
+eyes.close();
+//  action 3: the eyes see
+eyes.see();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:mouth
+//  action 1:the mouth speaks
+mouth.speak();
+//  action 2:the mouth eats
+mouth.eat();
+//  action 3:the mouth smiles
+mouth.smile();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: speaker
+//  action 1:the speakers makes sound
+speaker.makeSound();
+//  action 2:the speaker consumes energery
+speaker.consumeEnergy();
+//  action 3:the speaker gets the party going.
+speaker.getPartyGoing();
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun: videoCamera
+//  action 1:the video camera records video
+videoCamera.recordVideo();
+//  action 2:the video camera records audio   
+videoCamera.recordAudio();
+//  action 3:the video camera takes a picture    
+videoCamera.takePicture();
 
-//  action 2:
-
-//  action 3:
-
-//  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  10) 
+//  Noun: computer
+//  action 1: the computer emits sounds.    
+computer.emitSound();
+//  action 2:the computer processes data
+computer.processData();
+//  action 3:the computer displays data
+computer.displayData();
 
 
 
