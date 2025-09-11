@@ -117,13 +117,13 @@ mouth.eat();
 mouth.smile();
 
 //  8)
-//  Noun: speaker
-//  action 1:the speakers makes sound
-speaker.makeSound();
-//  action 2:the speaker consumes energery
-speaker.consumeEnergy();
-//  action 3:the speaker gets the party going.
-speaker.getPartyGoing();
+//  Noun: bluetoothSpeaker
+//  action 1:the speakers play music
+speaker.playMusic();
+//  action 2:the speaker can adjust volume level
+speaker.changeVolume();
+//  action 3:the speaker connects to bluetooth
+speaker.connectBluetooth();
 
 //  9)
 //  Noun: videoCamera
